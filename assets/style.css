@@ -1,10 +1,10 @@
 /* color palette for challenge */
 :root {
-    --primary: rgba(68, 88, 119, 1);
-    --secondary: rgba(146, 204, 206, 1);
-    --tertiary: rgba(49, 52, 61, 1);
-    --dark: rgba(28, 29, 33, 1);
-    --light: rgba(238, 238, 247, 1);
+    --primary: #087388;
+    --secondary: #C2DACE;
+    --tertiary: #E7b9b4;
+    --dark: #161829;
+    --light: #E5DED2;
 }
 
 * {
@@ -16,12 +16,12 @@ body {
     color: var(--primary);
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
     line-height: 1.5;
 }
 
 header {
-    background-color: var(--tertiary);
+    background-color: var(--dark);
     padding: 15px 0 15px 0;
     display: flex;
     flex-direction: row;
@@ -33,8 +33,8 @@ header {
 
 /* name in header */
 header h1 {
-    background-color: var(--secondary);
-    color: var(--tertiary);
+    background-color: var(--primary);
+    color: var(--dark);
     padding: 5px 1% 5px 6%;
     margin: 0;
     font-size: 4vw;
@@ -50,7 +50,7 @@ nav {
 /* nav bar normal */
 nav a {
     text-decoration: underline;
-    color: var(--secondary);
+    color: var(--primary);
     padding: 5px 10px;
     margin-right: 30px;
     font-size: 22px;
@@ -58,8 +58,31 @@ nav a {
 
 /* nav bar hover over */
 nav a:hover {
-    background-color: var(--secondary);
-    color: var(--tertiary);
+    background-color: var(--primary);
+    color: var(--dark);
     background-size: 100% 100%;
     text-decoration: none;
+}
+
+/* hero background image */
+.hero {
+    background-image: url("/assets/images/ameen-fahmy-mXpTl4jNKiA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    padding: 8% 8%;
+}
+
+/* hero subtitle box */
+.hero h2 {
+    color: var(--tertiary);
+
+}
+
+.section img {
+    height: 15%;
+    width: 15%;
 }
