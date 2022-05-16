@@ -8,7 +8,8 @@
 }
 
 * {
-
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -28,7 +29,6 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
 
 /* name in header */
@@ -90,7 +90,42 @@ nav a:hover {
     display: inline;
 }
 
-.section img {
-    height: 15%;
-    width: 15%;
+.about {
+    float: left;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    background-color: var(--tertiary);
+}
+
+.about div{
+    flex-wrap: wrap;
+}
+
+.about h2 {
+}
+
+.about img {
+    height: 30%;
+    width: 35%;
+}
+
+.work {
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+footer h2{
+
+}
+
+footer ul {
+    
 }
