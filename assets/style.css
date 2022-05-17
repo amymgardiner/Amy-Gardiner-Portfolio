@@ -76,32 +76,24 @@ nav a:hover {
     padding: 8% 8%;
 }
 
-/* hero subtitle box */
-.hero div {
-    flex: 1;
-}
-
 .hero h2 {
     color: var(--tertiary);
     margin: 0;
     padding: 5px 10px;
     line-height: 1.2;
     background-color: rgb(22, 24, 41, 0.25);
-    display: inline;
 }
 
 /* about me section on left side */
 .about {
     width: 35%;
     height: 100%;
+    padding: 1%;
     background-color: var(--tertiary);
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.about div {
 }
 
 .about h2 {
@@ -110,6 +102,9 @@ nav a:hover {
 .about img {
     height: 275px;
     width: 200px;
+}
+
+.about div p {
 }
 
 .work {
@@ -148,12 +143,4 @@ footer a:hover {
     color: var(--dark);
     background-size: 100% 100%;
     text-decoration: none;
-}
-
-/* media query */
-
-@media (max-width: 760px) {
-    .container{
-        flex-direction: column;
-    }
 }
