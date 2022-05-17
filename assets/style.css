@@ -90,24 +90,26 @@ nav a:hover {
     display: inline;
 }
 
+/* about me section on left side */
 .about {
-    float: left;
     width: 35%;
     height: 100%;
-    display: flex;
     background-color: var(--tertiary);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.about div{
-    flex-wrap: wrap;
+.about div {
 }
 
 .about h2 {
 }
 
 .about img {
-    height: 30%;
-    width: 35%;
+    height: 275px;
+    width: 200px;
 }
 
 .work {
@@ -146,4 +148,12 @@ footer a:hover {
     color: var(--dark);
     background-size: 100% 100%;
     text-decoration: none;
+}
+
+/* media query */
+
+@media (max-width: 760px) {
+    .container{
+        flex-direction: column;
+    }
 }
