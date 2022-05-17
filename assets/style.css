@@ -107,6 +107,7 @@ nav a:hover {
     width: 200px;
 }
 
+/* work section on right side - bigger portion of the page */
 .work {
     display: flex;
     align-items: center;
@@ -123,21 +124,54 @@ nav a:hover {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
     color: var(--tertiary);
-    height: 150px;
-    width: 550px;
-    padding: 20px;
+    height: 100px;
+    width: 750px;
+    padding: 40px;
     margin: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-blend-mode: soft-light;
 }
 
-.main {
+.projects:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+.feature {
     min-height: 400px;
     flex-basis: 100%;
 }
 
+
+.run-buddy {
+    background-image: url("../assets/images/run\ buddy.png");
+    background-size: cover;
+  }
+  
+.pastel-puzzels {
+    background-image: url("../assets/images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg");
+    background-size: cover;
+}
+  
+.calculator {
+    background-image: url("../assets/images/stellrweb-djb1whucfBY-unsplash.jpg");
+    background-size: cover;
+}
+  
+.led-wall {
+    background-image: url("../assets/images/justin-lane-lwwM_dotpcs-unsplash.jpg");
+    background-size: cover;
+}
+  
+.surf-report {
+    background-image: url("../assets/images/jeremy-bishop-qH7cYCMF10M-unsplash.jpg");
+    background-size: cover;
+}
+
+
+  /* footer section for contact information - to look like header */
 footer {
     background-color: var(--dark);
     padding: 10px 0 10px 0;
