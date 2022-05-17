@@ -99,6 +99,7 @@ nav a:hover {
 }
 
 .about h2 {
+    color: var(--dark);
 }
 
 .about img {
@@ -108,8 +109,14 @@ nav a:hover {
 
 .work {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.work h2 {
+    color: var(--dark);
 }
 
 .projects {
@@ -118,17 +125,15 @@ nav a:hover {
     color: var(--tertiary);
     min-height: 150px;
     max-height: 150px;
-    flex-basis: calc(50% - 1em);
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-blend-mode: soft-light;
-    background-size: 150%;
-    transition: all 0.5s;
-    font-size: 0.9rem;
-  }
+}
+
+.main {
+    min-height: 400px;
+    flex-basis: 100%;
+}
 
 footer {
     background-color: var(--dark);
