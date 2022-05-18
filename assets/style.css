@@ -219,6 +219,16 @@ footer a:hover {
 }
 
 /* media query for tablets and smaller */
+@media screen and (max-width: 1275px) {
+
+.work {
+    width: auto;
+}
+
+}
+
+
+/* media query for tablets and smaller */
 @media screen and (max-width: 968px) {
 
     header {
@@ -283,21 +293,68 @@ footer a:hover {
         font-size: 75%;
     }
 
+    .hero h2 {
+        font-size: 90%;
+    }
+
     .about {
         font-size: 80%;
     }
 
+    .about h2 {
+        font-size: 1.8rem;
+    }
+
+    .work h2 {
+        font-size: 1.8rem;
+    }
+
     .projects {
-        width: 250px;
+        width: 70%;
+    }
+
+    .projects div {
+        font-size: 85%;
     }
 
     .feature {
         min-height: 200px;
-        width: 300px;
+        width: 75%;
     }
 
     footer a {
         margin-right: 0;
+        padding: 5px;
+        font-size: 75%;
+    }
+
+}
+
+/* media query for small phones and smaller */
+@media screen and (max-width: 368px) {
+
+    .hero h2 {
+        font-size: 80%;
+    }
+
+    .about h2 {
+        font-size: 1.1rem;
+    }
+
+    .work h2 {
+        font-size: 1.1rem;
+    }
+
+    .projects {
+        width: 65%;
+    }
+
+    .feature {
+        min-height: 200px;
+        width: 70%;
+    }
+
+    .projects div {
         font-size: 75%;
     }
 
