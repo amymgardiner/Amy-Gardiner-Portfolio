@@ -182,7 +182,6 @@ nav a:hover {
     background-size: cover;
 }
 
-
 /* footer section for contact information - to look like header */
 footer {
     background-color: var(--dark);
@@ -217,4 +216,32 @@ footer a:hover {
     color: var(--dark);
     background-size: 100% 100%;
     text-decoration: none;
+}
+
+/* media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+    /* header to fit across whole screen */
+
+    /* hero to fit across whole screen */
+
+    /* footer to fit across whole screen */
+
+    /* work section less width */
+}
+
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+
+    /* make name one row */
+
+    /* make nav one row and smaller */
+
+    /* make header smaller */
+
+    /* make about me not float but in center of screen */
+
+    /* make projects in center and smaller */
+
+    /* make footer one row and smaller */
+
 }
