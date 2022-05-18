@@ -218,30 +218,87 @@ footer a:hover {
     text-decoration: none;
 }
 
-/* media query for smaller desktop screens and smaller */
-@media screen and (max-width: 980px) {
-    /* header to fit across whole screen */
+/* media query for tablets and smaller */
+@media screen and (max-width: 968px) {
 
-    /* hero to fit across whole screen */
+    header {
+        width: auto;
+        justify-content: center;
+    }
 
-    /* footer to fit across whole screen */
+    header h1 {
+        padding: 5px 6% 5px 6%;
+    }
 
-    /* work section less width */
+    .about {
+        background-color: rgb(231, 185, 180, 0.25);
+        width: auto;
+        height: auto;
+        float: none;
+    }
+
+    .about:hover {
+        background-color: rgb(231, 185, 180, 0.75);
+    }
+
+    .text {
+        font-size: smaller;
+    }
+
+    .work {
+        width: auto;
+    }
+
+    .projects {
+        height: 50%;
+        width: 80%;
+    }
+
+    .feature {
+        min-height: 300px;
+        width: 85%;
+    }
+
+    .projects div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        width: auto;
+        justify-content: center;
+    }
+
+    footer h2{
+        padding: 5px 6% 5px 6%;
+    }
+
 }
 
-/* media query for tablets and smaller */
-@media screen and (max-width: 768px) {
+/* media query for large phones and smaller */
+@media screen and (max-width: 468px) {
 
-    /* make name one row */
+    nav a {
+        margin-right: 0;
+        font-size: 75%;
+    }
 
-    /* make nav one row and smaller */
+    .about {
+        font-size: 80%;
+    }
 
-    /* make header smaller */
+    .projects {
+        width: 250px;
+    }
 
-    /* make about me not float but in center of screen */
+    .feature {
+        min-height: 200px;
+        width: 300px;
+    }
 
-    /* make projects in center and smaller */
-
-    /* make footer one row and smaller */
+    footer a {
+        margin-right: 0;
+        font-size: 75%;
+    }
 
 }
