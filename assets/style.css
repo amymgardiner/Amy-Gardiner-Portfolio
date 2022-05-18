@@ -8,8 +8,8 @@
 }
 
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -24,11 +24,12 @@ body {
 header {
     background-color: var(--dark);
     padding: 15px 0 15px 0;
+    margin: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    background-size: cover;
 }
 
 /* name in header */
@@ -133,7 +134,7 @@ nav a:hover {
     background-color: var(--primary);
     color: var(--tertiary);
     height: 100px;
-    width: 750px;
+    width: -webkit-fill-available;
     padding: 35px;
     margin: 5px;
     display: flex;
@@ -191,6 +192,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    background-size: cover;
     width: 100%;
 }
 
@@ -217,16 +219,6 @@ footer a:hover {
     background-size: 100% 100%;
     text-decoration: none;
 }
-
-/* media query for tablets and smaller */
-@media screen and (max-width: 1275px) {
-
-.work {
-    width: auto;
-}
-
-}
-
 
 /* media query for tablets and smaller */
 @media screen and (max-width: 968px) {
