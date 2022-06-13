@@ -146,29 +146,24 @@ header h1 {
     background-color: rgba(0, 0, 0, 0.3);
   }
 
-.feature {
-    min-height: 400px;
-    flex-basis: 100%;
-}
-
 /* project background images */
 .run-buddy {
-    background-image: url("../assets/images/run\ buddy.png");
+    background-image: url("../assets/images/steven-lelham-atSaEOeE8Nk-unsplash.jpg");
     background-size: cover;
   }
   
 .horiseon {
-    background-image: url("../assets/images/horiseon 2.png");
+    background-image: url("../assets/images/james-harrison-vpOeXr5wmR4-unsplash.jpg");
     background-size: cover;
 }
   
-.three {
-    background-image: url("../assets/images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg");
+.password {
+    background-image: url("../assets/images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg");
     background-size: cover;
 }
   
-.four {
-    background-image: url("../assets/images/justin-lane-lwwM_dotpcs-unsplash.jpg");
+.quiz {
+    background-image: url("../assets/images/nguyen-dang-hoang-nhu-cbEvoHbJnIE-unsplash.jpg");
     background-size: cover;
 }
   
@@ -226,10 +221,6 @@ footer h2{
         font-size: smaller;
     }
 
-    .feature {
-        min-height: 300px;
-    }
-
     .projects div {
         display: flex;
         flex-direction: column;
@@ -265,17 +256,10 @@ footer h2{
         font-size: 85%;
     }
 
-    .feature {
-        min-height: 250px;
-    }
 }
 
 /* media query for small phones and smaller */
 @media screen and (max-width: 368px) {
-
-    .feature {
-        min-height: 200px;
-    }
 
     .projects div {
         font-size: 75%;
