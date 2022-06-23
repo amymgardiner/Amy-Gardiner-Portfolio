@@ -127,7 +127,7 @@ header h1 {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
     color: var(--tertiary);
-    height: 100px;
+    height: 105px;
     width: -webkit-fill-available;
     padding: 35px;
     margin: 5px;
@@ -147,8 +147,8 @@ header h1 {
   }
 
 /* project background images */
-.run-buddy {
-    background-image: url("../assets/images/steven-lelham-atSaEOeE8Nk-unsplash.jpg");
+.moviejuice {
+    background-image: url("../assets/images/noom-peerapong-2uwFEAGUm6E-unsplash.jpg");
     background-size: cover;
   }
   
@@ -167,8 +167,8 @@ header h1 {
     background-size: cover;
 }
   
-.five {
-    background-image: url("../assets/images/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg");
+.scheduler {
+    background-image: url("../assets/images/jo-szczepanska-5aiRb5f464A-unsplash.jpg");
     background-size: cover;
 }
 
@@ -192,6 +192,24 @@ footer h2{
     margin: 0;
     font-size: 3.7vw;
     line-height: 1;
+}
+
+/* media queries for smaller laptops */
+@media screen and (max-width: 1440px) {
+
+    .projects {
+        height: 170px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .projects {
+        height: 190px;
+        margin: 30px;
+    }
+
 }
 
 /* media query for tablets and smaller */
@@ -219,6 +237,10 @@ footer h2{
 
     .text {
         font-size: smaller;
+    }
+
+    .projects {
+        margin: 5px;
     }
 
     .projects div {

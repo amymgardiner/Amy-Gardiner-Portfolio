@@ -14,7 +14,7 @@ I have a banner image with a quote from William Shakespeare, because I've got to
 
 After that my page shows a section about my education and work history, with a few fun facts about myself and a recent image thrown in.
 
-Then I have my work section with two projects I have completed through class and placeholders for future projects.
+Then I have my work section with multiple projects I have completed through class, at the moment focusing on HTML, CSS, and Javascript.
 
 Finally, my contact section has functional links to reach me via phone or email, and links to check out my GitHub page as well as two social media accounts I maintain.
 
