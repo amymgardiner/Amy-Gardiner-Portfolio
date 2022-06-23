@@ -32,4 +32,4 @@ Please take a look yourself and reach out to me if you'd like to connect or have
 
 https://amymgardiner.github.io/Amy-Gardiner-Portfolio/
 
-![plot](./assets/images/Web%20capture_18-5-2022_223525_amymgardiner.github.io.jpeg)
+![plot](./assets/images/127.0.0.1_5501_index.html.png)
