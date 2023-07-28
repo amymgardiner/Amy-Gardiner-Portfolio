@@ -110,8 +110,8 @@ header h1 {
 }
 
 .about img {
-  height: 275px;
-  width: 200px;
+  height: auto;
+  width: 350px;
 }
 
 /* work section on right side - bigger portion of the page */
@@ -278,5 +278,10 @@ footer h2 {
 @media screen and (max-width: 368px) {
   .projects div {
     font-size: 75%;
+  }
+
+  .about img {
+    height: auto;
+    width: 250px;
   }
 }
