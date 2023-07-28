@@ -197,16 +197,10 @@ footer h2 {
 }
 
 /* media queries for smaller laptops */
-@media screen and (max-width: 1440px) {
-  .projects {
-    height: 170px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .projects {
     height: 190px;
-    margin: 20px;
+    margin: 10px;
   }
 }
 
